@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!-- saved from url=(0086)https://sess_ee062ea3-9d25-4773-bb6b-143c60c00509.w3spaces-preview.com/index.html.html -->
+<html lang="fa" dir="rtl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سایت شخصی الینا</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600&display=swap');
+    :root{
+      --bg1: #667eea;
+      --bg2: #764ba2;
+      --card-bg: rgba(255,255,255,0.15);
+      --accent: #fff;
+      --accent-dark: #764ba2;
+    }
+    *{box-sizing:border-box}
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, var(--bg1), var(--bg2));
+      color: var(--accent);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+    .container{
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px 10px 20px;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      margin: 0 0 6px 0;
+    }
+    header p {
+      font-size: 1rem;
+      opacity: 0.95;
+      margin: 0;
+    }
+
+    .layout{
+      display: grid;
+      grid-template-columns: 1fr 360px;
+      gap: 28px;
+      align-items: start;
+      margin-top: 30px;
+    }
+
+    .main-card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+      border-radius: 16px;
+      padding: 28px;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.12);
+      backdrop-filter: blur(8px);
+    }
+    .main-card h2{
+      margin-top: 0;
+      font-size: 1.25rem;
+    }
+    .main-card p{
+      line-height: 1.7;
+      margin: 8px 0 0 0;
+      opacity: 0.95;
+    }
+
+    .side-card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      padding: 20px;
+      width: 100%;
+      box-shadow: 0 4px 30px rgba(0,0,0,0.12);
+      transition: transform .25s ease;
+      backdrop-filter: blur(8px);
+    }
+    .side-card:hover{ transform: translateY(-6px); }
+
+    .skills-list{
+      list-style: none;
+      padding: 0;
+      margin: 12px 0 0 0;
+    }
+    .skills-list li{
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 8px;
+      background: rgba(255,255,255,0.03);
+      font-weight: 500;
+    }
+    .skill-bullet{
+      min-width: 36px;
+      min-height: 36px;
+      border-radius: 10px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background: rgba(255,255,255,0.12);
+      color: var(--accent-dark);
+      font-weight: 700;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #fff;
+      color: var(--accent-dark);
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 10px;
+      margin-top: 16px;
+      font-weight: 700;
+      transition: transform .18s, background .18s;
+    }
+    .btn:hover{ transform: translateY(-3px); }
+
+    footer {
+      text-align: center;
+      padding: 26px 10px;
+      font-size: 0.9rem;
+      opacity: 0.85;
+      margin-top: 28px;
+    }
+
+    /* responsive */
+    @media (max-width: 880px){
+      .layout{ grid-template-columns: 1fr; }
+      .side-card{ order: -1; }
+      header h1{ font-size: 1.9rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>سلام! من الینا هستم 👋</h1>
+      <p>علاقه‌مند به طراحی وب و ساخت پروژه‌های جذاب — این اولین سایت من است که در GitHub قرار دادم.</p>
+    </header>
+
+    <div class="layout">
+      <section class="main-card">
+        <h2>درباره من</h2>
+        <p>من الینا هستم — تازه‌کار ولی پرانرژی در دنیای توسعه وب و تولید محتوا. این صفحه برای معرفی کوتاه من و مهارت‌هایم ساخته شده است. هدفم ساخت پروژه‌های ساده، زیبا و کاربردی است که هم طراحی خوبی داشته باشند و هم تجربهٔ کاربری مطلوب.</p>
+
+        <h2 style="margin-top:18px">نمونه کارها / پروژه‌ها</h2>
+        <p>به زودی نمونه‌کارها را اینجا قرار می‌دهم. اگر می‌خواهی یک نمونه مشخص را فعلاً نشان بدهم، بگو تا برایت اضافه کنم.</p>
+
+        <a class="btn" href="https://sess_ee062ea3-9d25-4773-bb6b-143c60c00509.w3spaces-preview.com/index.html.html#" aria-label="تماس با الینا">✉️ تماس با من</a>
+      </section>
+
+      <aside class="side-card">
+        <h3 style="margin:0 0 8px 0">مهارت‌ها و علاقه‌ها</h3>
+        <ul class="skills-list">
+          <li><span class="skill-bullet">⌨️</span>تایپ سریع و دقیق</li>
+          <li><span class="skill-bullet">🌐</span>ترجمه — انگلیسی</li>
+          <li><span class="skill-bullet">🗣️</span>ترجمه — ترکی استانبولی</li>
+          <li><span class="skill-bullet">✍️</span>نوشتن مقاله</li>
+          <li><span class="skill-bullet">📊</span>درست کردن پاورپوینت حرفه‌ای</li>
+          <li><span class="skill-bullet">💻</span>طراحی سایت (HTML/CSS)</li>
+        </ul>
+
+        <h4 style="margin-top:14px; margin-bottom:6px;">لینک‌های مفید</h4>
+        <p style="margin:0 0 8px 0; opacity:0.95">می‌تونی لینک گیت‌هاب یا شبکه‌های دیگرت رو اینجا بذاری تا برای بازدیدکننده‌ها نمایش بدم.</p>
+      </aside>
+    </div>
+
+    <footer>
+      ساخته شده با ❤️ توسط الینا — اولین صفحه شخصی من
+    </footer>
+  </div>
+
+
+</body></html>
